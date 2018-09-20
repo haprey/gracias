@@ -1,0 +1,140 @@
+*{
+	/*margin: 0;
+	padding: 0;*/
+}
+body { font-family: tahoma;}
+
+#wrapper{
+	
+}
+#container { 
+	margin:0 auto; 
+	width:96%;
+	max-width: 960px;
+	/*background: #676767;
+	/*box-shadow: 1px 1px 1em #d2d2d2;*/
+}
+
+#page{}
+
+#content {
+	padding-top: 5px; 
+	padding-bottom:50px;
+}
+#column1{ 
+	float:left; 
+	width: 630px;
+}
+#column1 p {
+	font-size:14px; 
+	text-align:center;
+}
+#column2{ 
+	float:right; 
+	width:320px; 
+	margin-top: 25px;
+}
+#footer p{
+	font-size:14px; 
+	text-align:center; 
+	color:#242222;
+}
+/*video css styles start*/
+
+.video_placeholder{margin:30px 0px 10px 0px;}
+
+.borderleft{ 
+	background:url("./images/borderleft.png") no-repeat scroll 0 0 transparent;
+	 width: 25px;
+	 height:309px;
+	 float:left;
+}
+.video_frame{
+	 background: url("./images/video_frame.png") no-repeat scroll 0 0 transparent;	
+	 float:left;
+	 width: 510px;
+	 height:309px;
+}
+.video {
+	width: 100%;   
+    height: 27%;
+	padding: 21px 0 0 15px;
+}
+.borderright{
+	 background: url("./images/borderright.png") no-repeat scroll 0 0 transparent;
+	 width: 25px;
+	 height:309px;
+	 float:left;
+}
+/*video css styles end*/
+
+.text {font-size:14px; text-align:center; font-weight:bold; margin-bottom: 55px;}
+.statement1 {width: 560px;}
+.statement2 {width: 560px;}
+.submit {  margin-bottom: 15px; margin-top: 10px; text-align: center;}
+.inputform p { margin: 6px 0 0 7px;}
+
+.security {
+    background: url("./images/lock.png") no-repeat scroll 44px 50% transparent;
+    font-size: 13px;
+    margin-left: 21px;
+    padding-left: 26px;
+    text-align: left;
+    /*display: inline-block;*/
+}
+.info {}
+
+.buttonlink {text-align:center; }
+
+h1, h2, h3, h4 {font-weight:bold;}
+p {text-align: center;}
+
+h1 {font-size:46px; text-align:center; width: 560px;}
+h2 {font-size:34px; text-align:center; text-transform: uppercase;}
+
+img {border-style: none;}
+
+
+input.textfield {
+	background: url("./images/inputbox.png") no-repeat scroll 0 0 transparent;
+	width:179px;
+	height:28px;
+	border-style:none;
+	color:white;	
+	padding:3px 2px 0 6px;
+	font-weight:bold;	
+}
+label {
+	display: block;
+	width: 60px;
+	float: left;
+	padding-top:6px;
+}
+@media screen and (max-width: 800px){
+	#column2 {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 800px){
+	#column1 {
+		width: 100%;
+	}
+	.video_frame,
+	.video,
+	.videito {
+		width: 96.5%;
+		max-width: 480px;
+	}
+	.info,
+	.security,
+	.borderleft, 
+	.borderright {
+		display: none;
+	}
+	.statement1{
+		width: 100%;
+	}
+	.logo {
+		text-align: center;
+	}
+}
